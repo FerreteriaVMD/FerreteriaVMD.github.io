@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VMD</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+      <a href="#" class="logo">VMD</a>
+      <div class="toggle" onclick="toggleMenu();"></div>
+      <ul class="menu">
+        <li><a href="#home" onclick="toggleMenu();">Inicio</a></li>
+        <li><a href="#about" onclick="toggleMenu();">Nosotros</a></li>
+        <li><a href="#testimonial" onclick="toggleMenu();">Testimonios</a></li>
+        <li><a href="#contact" onclick="toggleMenu();">Contacto</a></li>
+      </ul>
+    </header>
+    <section class="banner" id="home">
+      <div class="textBx">
+        <h2><span>Ferreteria </span><span class="vmd">VMD</span></h2>
+        <h3>¡Herramientas para cada tarea, ¡encuentra la tuya aquí!</h3>
+        <a href="#about" class="btn">¡Concenos!</a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="heading">
+        <h2>Nosotros</h2>
+      </div>
+      <div class="content">
+        <div class="contentBx w50">
+          <h3>Presentación.</h3>
+          <p>Nos enorgullece ser tu destino confiable para todas tus necesidades de construcción y reparación. Desde herramientas de alta calidad hasta materiales duraderos, estamos comprometidos a proporcionar a nuestros clientes todo lo necesario para llevar a cabo proyectos exitosos.
+        </p>
+        </div>
+        <div class="w50">
+          <img src="images/about.svg" class="img">
+        </div>
+      </div>
+    </section>
+
+    <section class="vision">
+        <div class="heading">
+            <h2>Visión & misión</h2>
+        </div>
+
+        <div class="content">
+            <div class="contentVM">
+                <div class="contentVision">
+                    <h3>Nuestra visión:</h3>
+                    <p>Ser líder en proveer herramientas y materiales de plomería, electricidad y construcción en la ciudad de Chilpancingo de los Bravo, Guerrero.</p>
+                </div>
+
+                <div class="contentVision">
+                    <h3>Nuestra misión:</h3>
+                    <p>Abastecer las necesidades requeridas por nuestros clientes en construcción, plomería y electricidad a través de nuestra gama de herramientas y materiales de las mismas en la ciudad de Chilpancingo de los Bravo, Guerrero.</p>
+                </div>
+            </div>
+            <img class="imgVision" src="images/vision.svg" width="50%" alt="">
+        </div>
+       
+    </section>
+
+    <section class="services" id="services">
+      <div class="heading white">
+        <h2>¿Por qué elegirnos?</h2>
+        <p>Conoce un poco de lo que podemos ofrecer.</p>
+      </div>
+      <div class="content">
+        <div class="servicesBx">
+            <img class="img_icon" src="images/1.svg">
+            <h2>Variedad Inigualable</h2>
+            <p>Contamos con una amplia gama de herramientas, materiales y productos de alta calidad.</p>
+        </div>
+
+        
+
+        <div class="servicesBx">
+            <img class="img_icon" src="images/2.svg" >
+            <h2>Calidad Garantizada</h2>
+            <p>Trabajamos con proveedores de confianza para asegurarnos de ofrecer productos de la más alta calidad.</p>
+        </div>
+
+    
+        <div class="servicesBx">
+            <img class="img_icon" src="images/3.svg" alt="">
+            <h2>Asesoramiento Profesional</h2>
+            <p>Nuestro personal capacitado está listo para brindarte asesoramiento experto.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="work" id="work">
+      <div class="heading">
+        <h2>Visitanos</h2>
+      </div>
+      <div class="content">
+        <div class="workBx">
+          <img src="images/tienda1.jpeg" alt="">
+        </div>
+        <div class="workBx">
+          <img src="images/tienda2.jpeg" alt="">
+        </div>
+        <div class="workBx">
+          <img src="images/tienda3.jpeg" alt="">
+        </div>
+        <div class="workBx">
+          <img src="images/tienda4.jpeg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section class="empresas_asocidadas">
+        <div class="heading">
+            <h2>Nuestros productos</h2>
+            <p>Encuentra las herramientas y los productos que necesites de tus marcas favoritas</p>
+        </div>
+
+
+        <div class="content_logos content">
+            <div class="empLogo">
+                <img src="images/truper.jpg" alt="">
+            </div>
+
+            <div class="empLogo">
+                <img src="images/hermex.jpg" alt="">
+            </div>
+
+            <div class="empLogo">
+                <img src="images/pretul.jpg" alt="">
+            </div>
+
+            <div class="empLogo">
+                <img src="images/foset.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!--
+    <section class="testimonial" id="testimonial">
+      <div class="heading">
+        <h2>Testimonios</h2>
+        <p>¿Qué opinan nuestros clientes de nostros?</p>
+      </div>
+      <div class="content">
+        <div class="testimonialBx">
+          <p>"Siempre encuentro lo que necesito. El personal es muy amable y conocedor, y la calidad de sus productos es insuperable. ¡Mi primera opción para proyectos en casa!"</p>
+          <h3>Andrea García<br></h3>
+        </div>
+        <div class="testimonialBx">
+          <p>"Encontré una gran variedad de productos. La calidad es evidente y los precios son muy razonables. Recomiendo encarecidamente esta ferretería para cualquier tarea de bricolaje."</p>
+          <h3>Luis Méndez<br></h3>
+        </div>
+      </div>
+    </section>
+    -->
+    
+    <section class="contact" id="contact">
+      <div class="heading white">
+        <h2>Contactanos</h2>
+      </div>
+      <div class="content">
+        <div class="contactInfo">
+          <h3>Información de contacto</h3>
+          <div class="contactInfoBx">
+            <div class="box">
+              <div class="icon">
+                <i class="fa fa-map-marker"></i>
+              </div>
+              <div class="text">
+                <h3>Dirección</h3>
+                <p>Calle Ent Principal, Popular del P.r.i., <br>
+                    Del PRI, 39070 Chilpancingo de los Bravo, Gro.</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="icon">
+                <i class="fa fa-phone"></i>
+              </div>
+              <div class="text">
+                <h3>Teléfono</h3>
+                <a class="tel" href="cel:527473223380">+52 747 322 3380</a>
+              </div>
+            </div>
+            <div class="box">
+              <div class="icon">
+                <i class="fa fa-envelope-o"></i>
+              </div>
+              <div class="text">
+                <h3>Correo</h3>
+                <p>ing.damian9413@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="formBx">
+          <form action="https://formsubmit.co/ing.damian9413@gmail.com" method="POST" >
+            <h3>Mandanos un mensaje</h3>
+            <input type="text" name="name" placeholder="Nombre">
+            <input type="email" name="emial" placeholder="Correo">
+            <textarea name="comments" placeholder="Cuentanos lo que necesitas..."></textarea>
+            <input type="submit" value="enviar">
+          </form>
+        </div>
+        <div class="map">
+            <h3>Ubicación</h3>
+            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3804.2430657442565!2d-99.50782932408733!3d17.543610498284384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cbedb5aecbfabd%3A0x473f00eb08288817!2sFerreter%C3%ADa%20VMD!5e0!3m2!1ses-419!2smx!4v1702841218654!5m2!1ses-419!2smx" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <div class="copyright">
+      <p>Copyright © 2024 Ferreteria VMD.</p>
+    </div>
+
+    <script type="text/javascript">
+      window.addEventListener('scroll', () => {
+        const header = document.querySelector('header');
+        header.classList.toggle('sticky', window.scrollY > 0);
+      })
+
+      const toggleMenu = () => {
+        const menuToggle = document.querySelector('.toggle');
+        const menu = document.querySelector('.menu');
+        menuToggle.classList.toggle('active');
+        menu.classList.toggle('active');
+      }
+    </script>
+  </body>
+</html>
